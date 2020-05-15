@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "--email",
+                "john@gardenway.org",
+                "--smtpserver",
+                "smtp.gmail.com:587",
+                "--foreground",
+                "--password",
+                "Lancer83",
+                "macbook 15"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
